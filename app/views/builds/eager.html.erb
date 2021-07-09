@@ -1,0 +1,6 @@
+<% @builds.each do |b|%>
+    <p> <%= b.branch.name %> build number <%= b.version %> </p>
+<% end %>
+
+
+<%= link_to "home", root_path %>

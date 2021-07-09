@@ -1,0 +1,6 @@
+<h1>Available suppliers</h1>
+<% @supplier.each do |s| %>
+  <p> <%= s.supplier_name %> </p>
+<% end %>
+
+<%= link_to "home", root_path %>

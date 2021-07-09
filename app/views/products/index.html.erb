@@ -1,0 +1,10 @@
+<h1>Products detail</h1>
+<% @product.each do |p| %>
+  <p> <%= p.product_name %>
+  <%= p.product_discription %>
+  <%= p.price_per_unit %>
+  <%= link_to "supplier", supplier_product_url(p.id) %></p>
+<% end %>
+
+<p> <%= link_to "Available Supplier", suppliers_index_url %> </br>
+<%= link_to "home", root_path %> </p>

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  h_number: MyString
+  city: MyString
+  country: MyString
+  disst: MyString
+  addressable: one
+  addressable_type: Addressable
+
+two:
+  h_number: MyString
+  city: MyString
+  country: MyString
+  disst: MyString
+  addressable: two
+  addressable_type: Addressable

@@ -1,0 +1,7 @@
+<h1>Available <%= @teacher.subject_name %> teacher</h1>
+<% @teacher.professors.each do |t| %>
+  <p> <%= t.first_name %>
+  <%= t.last_name %> </p>
+<% end %>
+
+<%= link_to 'home', root_path  %>

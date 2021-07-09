@@ -1,0 +1,7 @@
+<% @supplier.each do |s| %>
+  <p> <%= s.supplier_name %>
+  <%= s.supplier_address %> 
+  <%= s.supplier_country %></p>
+<% end %>
+
+<%= link_to "home", root_path %>

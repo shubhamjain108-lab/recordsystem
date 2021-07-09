@@ -1,0 +1,10 @@
+<h1>Total Professors</h1>
+<% @professor.each do |p| %>
+  <p> <%= p.first_name %>
+  <%= p.last_name %>
+  <%= link_to 'show subject', view_subjects_professor_path(p.id) %>
+<% end %>
+
+
+<h1>Avaiable subjects</h1>
+<p> <%= link_to 'Avaiable subject', subjects_index_url %> </p>

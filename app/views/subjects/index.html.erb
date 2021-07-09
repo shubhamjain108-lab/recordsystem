@@ -1,0 +1,7 @@
+<h1>Available Subjects</h1>
+<% @subject.each do |s| %>
+  <p> <%= link_to s.subject_name, teacher_subject_url(s.id) %> </p>
+<% end %>
+
+
+<%= link_to 'home', root_path  %>
